@@ -46,7 +46,7 @@ export function TotalNumber({
 
   return (
     <LazyMotion features={domAnimation}>
-      <m.p className='text-3xl' ref={ref}>
+      <m.p className='text-3xl text-customPrimary font-bold' ref={ref}>
         {currentValue}
       </m.p>
     </LazyMotion>

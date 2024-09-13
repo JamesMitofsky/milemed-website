@@ -9,6 +9,10 @@ export default {
         primary: ['Inter', ...defaultTheme.fontFamily.sans],
       },
       colors: {
+        customPrimary: {
+          DEFAULT: '#88bc45',
+          hover: '#7aa63b',
+        },
         primary: {
           // Customize it on globals.css :root
           50: 'rgb(var(--tw-color-primary-50) / <alpha-value>)',
