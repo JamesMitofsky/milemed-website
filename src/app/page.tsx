@@ -24,7 +24,7 @@ export default function HomePage() {
       <div className='flex gap-3 justify-center items-center mb-6 w-full'>
         <h1 className='flex flex-col gap-6 text-5xl md:text-8xl w-full items-center'>
           <motion.span
-            className='flex gap-3 items-center'
+            className='flex gap-3 md:gap-36 items-center'
             initial={{ opacity: 0, y: 20 }}
             animate={{ opacity: 1, y: 0 }}
             transition={{ duration: 0.5 }}
@@ -33,20 +33,27 @@ export default function HomePage() {
               src='/logo.png'
               alt='Logo'
               sizes='100vw'
-              className='w-auto h-12 md:h-60'
+              className='w-auto h-16 md:h-32'
               width={100}
               height={100}
             />
-            {/* MiLeMed */}
+            <Image
+              src='/demo.png'
+              alt='Demo'
+              sizes='100vw'
+              className='w-auto h-64 md:h-96'
+              width={100}
+              height={100}
+            />
           </motion.span>
         </h1>
       </div>
-      <div className='gap-8 py-8 flex flex-col text-gray-800 items-center'>
+      <div className='gap-8 py-4 md:py-8 flex flex-col text-gray-800 items-center'>
         <motion.span
           initial={{ opacity: 0 }}
           animate={{ opacity: 1 }}
           transition={{ duration: 0.5, delay: 0.5 }}
-          className='text-lg  max-w-3xl'
+          className='md:text-lg text-md  max-w-3xl'
         >
           Erleben Sie eine neue Art des Lernens mit MiLeMed! Unsere App bietet
           kompakte Vorlesungen und Materialien zu verschiedenen medizinischen
