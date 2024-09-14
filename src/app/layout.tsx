@@ -53,7 +53,7 @@ export default function RootLayout({
   children: React.ReactNode;
 }) {
   return (
-    <html>
+    <html lang='de'>
       <body>
         <main className='layout relative flex min-h-screen flex-col items-center justify-center py-12 text-center'>
           {children}
