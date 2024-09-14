@@ -38,7 +38,7 @@ export default function HomePage() {
               height={100}
             />
             <Image
-              src='/demo.png'
+              src='/demo.webp'
               alt='Demo'
               sizes='100vw'
               className='w-auto h-64 md:h-96'
