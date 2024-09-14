@@ -33,7 +33,7 @@ export default function HomePage() {
               src='/logo.webp'
               alt='Logo'
               sizes='100vw'
-              className='w-auto h-16 md:h-56'
+              className='w-auto h-36 md:h-56'
               width={100}
               height={100}
             />
