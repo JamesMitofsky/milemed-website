@@ -30,10 +30,10 @@ export default function HomePage() {
             transition={{ duration: 0.5 }}
           >
             <Image
-              src='/logo.png'
+              src='/logo.webp'
               alt='Logo'
               sizes='100vw'
-              className='w-auto h-16 md:h-32'
+              className='w-auto h-16 md:h-56'
               width={100}
               height={100}
             />
